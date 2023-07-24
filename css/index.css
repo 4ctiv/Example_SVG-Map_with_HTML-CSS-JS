@@ -1,0 +1,6 @@
+[class*="svg"] {
+  width: 100svw; 
+  height: 90svh;
+  align-content: center;
+  background-color: gray;
+}

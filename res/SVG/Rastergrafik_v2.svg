@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="281.561mm"
+   height="192.79594mm"
+   viewBox="0 0 281.561 192.79594"
+   version="1.1"
+   id="svg5"
+   inkscape:export-filename="Rastergrafik.svg"
+   inkscape:export-xdpi="96"
+   inkscape:export-ydpi="96"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns:xlink="http://www.w3.org/1999/xlink">
+   
+   <script xlink:href="/js/index.js" />
+
+   <script type="text/ecmascript">
+   
+   function clickHandler(evt,id) {
+      console.log("[CLICK] \t" + id + "\t" + "x: " + evt.layerX + "\t y: " + evt.layerY);
+      clickedJsScript(); // external js function of /js/index.js
+      alert("Clicked SVG rectangle (" + id + ")");
+   };
+
+   function mouseOverHandler(evt,id) {
+      console.log("[Mouse Over] \t" + id + "\t" + "x: " + evt.layerX + "\t y: " + evt.layerY);
+      document.getElementById(id).setAttribute("style", "fill=#044B94;fill-opacity:0.4;fill-opacity:0;stroke:#000000;stroke-width:2;stroke-dasharray:none;stroke-opacity:1");
+   };
+
+   function mouseOutHandler(evt,id) {
+      console.log("[Mouse Out] \t" + id + "\t" + "x: " + evt.layerX + "\t y: " + evt.layerY);
+      document.getElementById(id).setAttribute("style", "fill:#000000;fill-opacity:0;stroke:#000000;stroke-width:2;stroke-dasharray:none;stroke-opacity:1");
+   }
+  </script>
+
+  <sodipodi:namedview
+     id="namedview7"
+     pagecolor="#505050"
+     bordercolor="#eeeeee"
+     borderopacity="1"
+     inkscape:showpageshadow="false"
+     inkscape:pageopacity="0"
+     inkscape:pagecheckerboard="true"
+     inkscape:deskcolor="#505050"
+     inkscape:document-units="mm"
+     showgrid="false" />
+  <defs
+     id="defs2" />
+  <g
+     inkscape:label="Ebene 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(-6.2362302,-9.4972546)">
+    <rect
+       style="fill:#000000;fill-opacity:0;stroke:#000000;stroke-width:1.81765;stroke-dasharray:none;stroke-opacity:1"
+       id="rect1"
+       width="77.974915"
+       height="58.386795"
+       x="7.1450553"
+       y="11.864335" 
+       onclick="clickHandler(evt,id)"
+       onmouseover="mouseOverHandler(evt,id)"
+       onmouseout="mouseOutHandler(evt,id)" />
+    <rect
+       style="fill:#000000;fill-opacity:0;stroke:#000000;stroke-width:2;stroke-dasharray:none;stroke-opacity:1"
+       id="rect2"
+       width="94.700211"
+       height="58.204449"
+       x="91.915474"
+       y="12.277005" 
+       onclick="clickHandler(evt,id)"
+       onmouseover="mouseOverHandler(evt,id)"
+       onmouseout="mouseOutHandler(evt,id)" />
+    <rect
+       style="fill:#000000;fill-opacity:0;stroke:#000000;stroke-width:2;stroke-dasharray:none;stroke-opacity:1"
+       id="rect3"
+       width="94.700211"
+       height="58.204449"
+       x="190.6917"
+       y="10.497254" 
+       onclick="clickHandler(evt,id)"
+       onmouseover="mouseOverHandler(evt,id)"
+       onmouseout="mouseOutHandler(evt,id)" />
+    <rect
+       style="fill:#000000;fill-opacity:0;stroke:#000000;stroke-width:1.81765;stroke-dasharray:none;stroke-opacity:1"
+       id="rect4"
+       width="77.974915"
+       height="58.386795"
+       x="8.5503864"
+       y="142.67609" 
+       onclick="clickHandler(evt,id)"
+       onmouseover="mouseOverHandler(evt,id)"
+       onmouseout="mouseOutHandler(evt,id)" />
+    <rect
+       style="fill:#000000;fill-opacity:0;stroke:#000000;stroke-width:2;stroke-dasharray:none;stroke-opacity:1"
+       id="rect5"
+       width="94.700211"
+       height="58.204449"
+       x="91.985992"
+       y="143.08876" 
+       onclick="clickHandler(evt,id)"
+       onmouseover="mouseOverHandler(evt,id)"
+       onmouseout="mouseOutHandler(evt,id)" />
+    <rect
+       style="fill:#000000;fill-opacity:0;stroke:#000000;stroke-width:2;stroke-dasharray:none;stroke-opacity:1"
+       id="rect6"
+       width="94.700211"
+       height="58.204449"
+       x="192.09702"
+       y="142.19888" 
+       onclick="clickHandler(evt,id)"
+       onmouseover="mouseOverHandler(evt,id)"
+       onmouseout="mouseOutHandler(evt,id)" />
+    <rect
+       style="fill:#000000;fill-opacity:0;stroke:#000000;stroke-width:2;stroke-dasharray:none;stroke-opacity:1"
+       id="rect7"
+       width="94.700211"
+       height="58.204449"
+       x="192.0265"
+       y="75.01326" 
+       onclick="clickHandler(evt,id)"
+       onmouseover="mouseOverHandler(evt,id)"
+       onmouseout="mouseOutHandler(evt,id)" />
+  </g>
+</svg>
