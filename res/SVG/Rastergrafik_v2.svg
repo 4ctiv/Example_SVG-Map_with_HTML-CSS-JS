@@ -15,15 +15,16 @@
    xmlns="http://www.w3.org/2000/svg"
    xmlns:svg="http://www.w3.org/2000/svg"
    xmlns:xlink="http://www.w3.org/1999/xlink">
-   
-   <script xlink:href="/js/index.js" />
 
-   <script type="text/ecmascript">
+   <text id="dummyVar">DUMMY VALUE</text>
    
+   <script xlink:href="/js/index.js"/>
+   <script type="text/ecmascript">
+      
    function clickHandler(evt,id) {
       console.log("[CLICK] \t" + id + "\t" + "x: " + evt.layerX + "\t y: " + evt.layerY);
       clickedJsScript(); // external js function of /js/index.js
-      alert("Clicked SVG rectangle (" + id + ")");
+      alert("Clicked SVG rectangle (" + id + "), " + document.getElementByID('dummyVar'));
    };
 
    function mouseOverHandler(evt,id) {
